@@ -8,7 +8,7 @@ const port =3001;
 
 app.use(
     cors({
-        origin:['http://localhost:3000'],
+        origin:['https://video-chat-t5yo.vercel.app/'],
         methods:["GET","POST"],
         Credentials:true,
     })
