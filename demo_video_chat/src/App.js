@@ -19,7 +19,7 @@ const mypeer=new Peer(undefined,{
       { urls: 'stun:stun.services.mozilla.com:3478' },
       // Add more STUN servers if needed
     ]},
-  host:"/",
+  host:"https://video-chat-t5yo.vercel.app",
   port:"3002"
 });
 function App() {
