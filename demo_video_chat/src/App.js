@@ -9,7 +9,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { LuClipboardList } from "react-icons/lu";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const socket=io("http://localhost:3001");
+const socket=io("https://video-chat-gamma-gold.vercel.app");
 
 
 const mypeer=new Peer(undefined,{
