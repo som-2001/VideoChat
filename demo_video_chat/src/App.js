@@ -9,7 +9,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { LuClipboardList } from "react-icons/lu";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const socket=io("https://video-chat-gamma-gold.vercel.app");
+const socket=io("https://video-chat-six-brown.vercel.app");
 
 
 const mypeer=new Peer(undefined,{
@@ -19,7 +19,7 @@ const mypeer=new Peer(undefined,{
       { urls: 'stun:stun.services.mozilla.com:3478' },
       // Add more STUN servers if needed
     ]},
-  host:"https://video-chat-t5yo.vercel.app",
+  host:"https://video-chat-six-brown.vercel.app",
   port:"3002"
 });
 function App() {
